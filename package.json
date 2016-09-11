@@ -1,0 +1,29 @@
+{
+  "name": "http-directory-follower",
+  "version": "1.0.0",
+  "description": "Scans apache directory index. select latest/oldest file and executes remote tail on this file",
+  "main": "index.js",
+  "bin": {
+    "follow-dir": "index.js"
+  },
+  "publish": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawel Chudzik",
+  "homepage": "https://github.com/pchudzik/http-directory-follower",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pchudzik/http-directory-follower.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pchudzik/http-directory-follower/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "2.9.0",
+    "lodash": "4.15.0",
+    "parse-apache-directory-index": "1.1.1",
+    "request": "2.74.0"
+  }
+}
